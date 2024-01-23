@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>duniaislam.xyz - Situs Informasi Muslim</title>
+    <meta name="description" content="Quran Online Dunia Islam" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="shortcut icon" href="./public/Logo-150x150-pixel.png" type="image/x-icon" />
+  </head>
+  <body>
+    <nav class="topNav">
+      <div class="topNavContainer">
+        <ul class="left">
+          <li><a href="https://duniaislam.xyz/about-us/" target="_blank">About Us</a></li>
+          <li><a href="https://duniaislam.xyz/contact-us/" target="_blank">Contact Us</a></li>
+          <li><a href="https://duniaislam.xyz/disclaimer/" target="_blank">Disclaimer</a></li>
+          <li><a href="https://duniaislam.xyz/privacy-policy/" target="_blank">Privacy</a></li>
+        </ul>
+        <social-list></social-list>
+      </div>
+    </nav>
+    <div class="container">
+      <header>
+        <a href="/">
+          <img src="./public/Logo-150x150-pixel.png" alt="dunia islam" />
+        </a>
+        <h1><span class="gold">Quran</span> Digital</h1>
+      </header>
+      <div class="shalatScheduleContainer">
+        <div class="left">
+          <a href="/jadwalsholat" target="_blank"> Jadwal Sholat </a>
+        </div>
+        <div class="mid"></div>
+        <div class="right">
+          <form>
+            <select id="selectedCity"></select>
+          </form>
+        </div>
+      </div>
+      <button class="hamburger" aria-label="navigation draw"><i class="fa-solid fa-bars"></i></button>
+      <div class="loading hide">
+        <div class="lds-ripple">
+          <div></div>
+          <div></div>
+        </div>
+      </div>
+      <main id="main"></main>
+    </div>
+    <footer>Copyright © Dunia Islam</footer>
+  </body>
+</html>
