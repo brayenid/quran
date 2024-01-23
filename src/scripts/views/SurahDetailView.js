@@ -51,7 +51,7 @@ const SurahDetailView = {
 
     //menambahkan fungsi pada selector surah
     surahSelector.addEventListener('change', () => {
-      location.replace(`/quran/#/surah/${surahSelector.value}`) // sesuaikan dengan direktori penyimpanan proyek
+      location.replace(`/#/surah/${surahSelector.value}`) // sesuaikan dengan direktori penyimpanan proyek
       container.innerHTML = ''
     })
 
